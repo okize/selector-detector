@@ -1,1 +1,3 @@
-.cssSelector1, .cssSelector2, .cssSelector3, .cssSelector4, .cssSelector5 { margin: 0; }
+.cssSelector1, .cssSelector2, .cssSelector3 { margin: 0; }
+#tooManyRules, #tooManySelectors { display: none; }
+

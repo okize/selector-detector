@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="expect-50-rules-500-selectors.css" />
   <link rel="stylesheet" href="expect-100-rules-2500-selectors.css" />
   <link rel="stylesheet" href="expect-1000-rules-5000-selectors.css" />
+  <!--[if IE]>
+  <link rel="stylesheet" id="tooManyRulesStylesheet" href="expect-3-rules-4100-selectors-ie-only.css" />
+  <link rel="stylesheet" id="tooManySelectorsStylesheet" href="expect-5003-rules-2-selectors-ie-only.css" />
+  <![endif]-->
   <style>
     .class1 {
       margin: 0;
@@ -64,8 +68,32 @@
         <li>1000 rules &amp; 5000 selectors</li>
       </ol>
 
+      <br>
+
+    </li>
+    <li>
+
+      <strong>One linked stylesheet in an IE-only conditional:</strong>
+
+      <ol>
+        <li>4100 rules &amp; 4100 selectors</li>
+      </ol>
+
     </li>
   </ul>
 
+  <p id="tooManyRules">This text only displays in IE and will have a purple background if there are too many rules</p>
+
+  <p id="tooManySelectors">This text only displays in IE and will have an orange background if there are too many selectors</p>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+
+    var stylesheets = $('link[rel="stylesheet"]');
+
+    stylesheets.each( function(i) {
+      console.log(i+1 + ' ' + this.href);
+    });
+  </script>
 </body>
 </html>

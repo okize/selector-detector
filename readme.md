@@ -34,8 +34,9 @@ The source is available for download from [GitHub](https://github.com/okize/sele
 
 ## Todo:
 
-1. Display results in terminal in a formatted table rather than as raw json (json output to be configuration flag)
-2. Display progress indicator
-3. Create 'verbose' mode for increased console logging
-4. Add fuzzy url arguments
-5. Add mocha tests
+* Allow user-agent heading flags
+* Add fuzzy url arguments
+* Create 'verbose' mode for increased console logging
+* Create better error messaging
+* Display progress indicator
+* Add mocha tests
