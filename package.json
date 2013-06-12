@@ -1,7 +1,7 @@
 {
   "name": "selector-detector",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "CLI tool to count the CSS rules, selectors and declarations on a web page.",
   "main": "./bin/selector-detector.js",
   "bin": {
     "selector-detector": "./bin/selector-detector.js"
@@ -17,9 +17,6 @@
     "css-parse": "1.4.x",
     "optimist": "0.5.x",
     "request": "2.21.x"
-  },
-  "devDependencies": {
-    "mocha": "1.10.x"
   },
   "scripts": {
     "test": ""
