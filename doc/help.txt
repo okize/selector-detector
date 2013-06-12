@@ -1,6 +1,6 @@
 Usage:
 
-  selectorDetector [OPTIONS] [URL]
+  selectorDetector [URL] [OPTIONS]
 
 Description:
 
@@ -10,8 +10,9 @@ Options:
 
   -h, --help           Output usage information
   -V, --version        Output version number
+  -p, --pretty         Output a 'pretty' version of results
 
 Examples:
 
   $ selectorDetector http://www.google.com
-  $ selectorDetector http://www.github.com
+  $ selectorDetector http://www.github.com -p

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Selector Detector Test</title>
+  <link rel="stylesheet" href="expect-0-rules-0-selectors.css" />
+  <link rel="stylesheet" href="expect-1-rules-5-selectors.css" />
+  <link rel="stylesheet" href="expect-5-rules-50-selectors.css" />
+  <link rel="stylesheet" href="expect-50-rules-500-selectors.css" />
+  <link rel="stylesheet" href="expect-100-rules-2500-selectors.css" />
+  <link rel="stylesheet" href="expect-1000-rules-5000-selectors.css" />
+  <style>
+    .class1 {
+      margin: 0;
+    }
+    .class1, .class2 {
+      padding: 0;
+    }
+    .class1, .class2, .class3 {
+      font-weight: 20px;
+    }
+    .class1, .class2, .class3, .class4 {
+      border: 1px solid black;
+    }
+    .class1, .class2, .class3, .class4, .class5 {
+      background-color: blue;
+    }
+  </style>
+  <style>
+    .class6, .class7, .class8, .class9, .class10 {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Selector Detector Test</h1>
+
+  <p>This page has:</p>
+
+  <ul>
+    <li>
+
+      <strong>Two inline &lt;style&gt; blocks:</strong>
+
+      <ol>
+        <li>5 rules &amp; 15 selectors</li>
+        <li>1 rule &amp; 5 selectors</li>
+      </ol>
+
+      <br>
+
+    </li>
+    <li>
+
+      <strong>Six linked stylesheets:</strong>
+
+      <ol>
+        <li>0 rules &amp; 0 selectors</li>
+        <li>1 rule &amp; 5 selectors</li>
+        <li>5 rules &amp; 50 selectors</li>
+        <li>50 rules &amp; 500 selectors</li>
+        <li>100 rules &amp; 2500 selectors</li>
+        <li>1000 rules &amp; 5000 selectors</li>
+      </ol>
+
+    </li>
+  </ul>
+
+</body>
+</html>
