@@ -73,10 +73,11 @@
     </li>
     <li>
 
-      <strong>One linked stylesheet in an IE-only conditional:</strong>
+      <strong>Two linked stylesheets in an IE-only conditional:</strong>
 
       <ol>
-        <li>4100 rules &amp; 4100 selectors</li>
+        <li>3 rules &amp; 4100 selectors</li>
+        <li>5003 rules &amp; 2 selectors</li>
       </ol>
 
     </li>
@@ -94,6 +95,21 @@
     stylesheets.each( function(i) {
       console.log(i+1 + ' ' + this.href);
     });
+
+    $('head').contents().filter(
+      function(){ console.log(return this.nodeType == 8;}
+    ).each(
+      function(i, el) {
+        console.log($(el));
+      }
+    );
+
+  // regexComment = new RegExp(/<!--[if/i);
+  // targetElement = regexComment.exec($('head').html());
+  // if(targetElement.length > 0) {
+  //     return parseInt(targetElement[1]);
+  // }
+
   </script>
 </body>
 </html>
