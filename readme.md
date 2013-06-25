@@ -1,6 +1,6 @@
 # selectorDetector
 
-CLI tool to count the CSS rules, selectors and declarations on a web page.
+Count the CSS rules, selectors and declarations on a web page.
 
 Internet Explorer 9, 8, 7 & 6 have a limit on the number of rules/selectors it can parse. Once it reaches that limit, it will fail silently and ignore any further CSS declarations which result in aspects of the page not having styling applied.
 
