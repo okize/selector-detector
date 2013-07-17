@@ -32,11 +32,4 @@ The source is available for download from [GitHub](https://github.com/okize/sele
   $ selectorDetector http://www.google.com
 ```
 
-## Todo:
-
-* Allow user-agent heading flags
-* Add fuzzy url arguments
-* Create 'verbose' mode for increased console logging
-* Create better error messaging
-* Display progress indicator
-* Add mocha tests
+[![NPM](https://nodei.co/npm/selector-detector.png)](https://nodei.co/npm/selector-detector/)
