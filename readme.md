@@ -1,4 +1,4 @@
-# selectorDetector
+# selector-detector
 
 Count the CSS rules, selectors and declarations on a web page.
 
