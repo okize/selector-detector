@@ -22,6 +22,7 @@
   "evil": true,
   "forin": false,
   "immed": true,
+  "indent": 2,
   "laxbreak": false,
   "newcap": true,
   "noarg": true,
