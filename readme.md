@@ -1,3 +1,5 @@
+[![NPM version](https://badge.fury.io/js/selector-detector.png)](http://badge.fury.io/js/selector-detector)
+
 # selector-detector
 
 Count the CSS rules, selectors and declarations on a web page.
@@ -16,20 +18,20 @@ Internet Explorer 9, 8, 7 & 6 have a limit on the number of rules/selectors it c
 
 ### Installing via npm (node package manager)
 ```
-  $ [sudo] npm install selectorDetector
+  $ [sudo] npm install selector-detector
 ```
 
 ### Clone & Hack
 
-The source is available for download from [GitHub](https://github.com/okize/selectorDetector).
+The source is available for download from [GitHub](https://github.com/okize/selector-detector).
 ```
-  $ git clone git@github.com:okize/selectorDetector.git && cd selectorDetector
+  $ git clone git@github.com:okize/selector-detector.git && cd selector-detector
   $ npm install
 ```
 
 ## Usage
 ```
-  $ selectorDetector http://www.google.com
+  $ selector-detector http://www.google.com
 ```
 
 [![NPM](https://nodei.co/npm/selector-detector.png)](https://nodei.co/npm/selector-detector/)
