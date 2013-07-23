@@ -19,6 +19,7 @@
     "cli-table": "0.2.x",
     "css-parse": "1.4.x",
     "optimist": "0.5.x",
+    "progger": "0.1.x",
     "request": "2.21.x"
   },
   "scripts": {
