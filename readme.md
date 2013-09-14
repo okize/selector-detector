@@ -1,4 +1,4 @@
-# selector-detector [![NPM version](https://badge.fury.io/js/selector-detector.png)](http://badge.fury.io/js/selector-detector)
+# selector-detector [![NPM version](https://badge.fury.io/js/selector-detector.png)](http://badge.fury.io/js/selector-detector) [![NPM version](https://david-dm.org/okize/selector-detector.png)](https://david-dm.org/okize/selector-detector)
 
 Count the CSS rules, selectors and declarations on a web page.
 
