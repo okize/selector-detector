@@ -1,6 +1,6 @@
 Usage:
 
-  selectorDetector [URL] [OPTIONS]
+  selector-detector [URL] [OPTIONS]
 
 Description:
 
@@ -14,5 +14,5 @@ Options:
 
 Examples:
 
-  $ selectorDetector http://www.google.com
-  $ selectorDetector http://www.github.com -p
+  $ selector-detector http://www.google.com
+  $ selector-detector http://www.github.com -p
