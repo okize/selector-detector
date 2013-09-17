@@ -1,8 +1,8 @@
 # selector-detector [![NPM version](https://badge.fury.io/js/selector-detector.png)](http://badge.fury.io/js/selector-detector) [![NPM version](https://david-dm.org/okize/selector-detector.png)](https://david-dm.org/okize/selector-detector)
 
-Count the CSS rules, selectors and declarations on a web page.
+Counts the CSS rules, selectors and declarations on a web page as well as the total number of inline style blocks and linked stylesheets.
 
-Internet Explorer 9, 8, 7 & 6 have a limit on the number of rules/selectors it can parse. Once it reaches that limit, it will fail silently and ignore any further CSS declarations which result in aspects of the page not having styling applied.
+Internet Explorer version 9 and below have a limit on the number of CSS rules & selectors they can parse. Once it reaches that limit, it will fail silently and ignore any further CSS declarations which result in aspects of the page not having styling applied. Additionally, those versions of IE will also fail to parse any stylesheets after the 31st (inline style blocks count towards this total).
 
 #### Internet Explorer (9 and below) Rules:
 
