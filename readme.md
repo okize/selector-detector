@@ -22,7 +22,7 @@ Internet Explorer version 9 and below have a limit on the number of CSS rules & 
 
 ### Installing via npm (node package manager)
 ```
-  $ [sudo] npm install selector-detector
+  $ [sudo] npm install -g selector-detector
 ```
 
 ## Clone & Hack
