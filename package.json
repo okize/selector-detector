@@ -1,6 +1,6 @@
 {
   "name": "selector-detector",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "CLI tool to count the CSS rules, selectors and declarations on a web page.",
   "main": "./bin/selector-detector.js",
   "bin": {
@@ -17,7 +17,7 @@
     "async": "0.2.x",
     "cheerio": "0.12.x",
     "cli-table": "0.2.x",
-    "css-parse": "1.5.x",
+    "css-parse": "1.6.x",
     "optimist": "0.6.x",
     "progger": "0.1.x",
     "request": "2.27.x"
