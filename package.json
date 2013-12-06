@@ -20,7 +20,7 @@
     "css-parse": "1.6.x",
     "optimist": "0.6.x",
     "progger": "0.1.x",
-    "request": "2.27.x"
+    "request": "2.29.x"
   },
   "scripts": {
     "test": ""
