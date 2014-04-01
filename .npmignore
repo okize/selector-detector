@@ -1,0 +1,4 @@
+./samples/
+./test/
+.gitignore
+.npmignore
