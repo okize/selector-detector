@@ -14,13 +14,13 @@
     "count"
   ],
   "dependencies": {
-    "async": "0.2.x",
-    "cheerio": "0.12.x",
-    "cli-table": "0.2.x",
-    "css-parse": "1.6.x",
+    "async": "0.6.x",
+    "cheerio": "0.14.x",
+    "cli-table": "0.3.x",
+    "css-parse": "1.7.x",
     "optimist": "0.6.x",
-    "progger": "0.1.x",
-    "request": "2.29.x"
+    "request": "2.34.x",
+    "progger": "0.1.x"
   },
   "scripts": {
     "test": ""
