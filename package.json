@@ -23,7 +23,7 @@
     "progger": "0.1.x"
   },
   "scripts": {
-    "test": ""
+    "start": "node ./test/server.js"
   },
   "repository": {
     "type": "git",
