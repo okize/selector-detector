@@ -22,8 +22,11 @@
     "request": "2.34.x",
     "progger": "0.1.x"
   },
+  "devDependencies": {
+    "http-server": "x"
+  },
   "scripts": {
-    "start": "node ./test/server.js"
+    "start": "node ./node_modules/http-server/bin/http-server ./test -s -p 9876"
   },
   "repository": {
     "type": "git",
