@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>IE Test - Too Many Selectors</title>
-  <link rel="stylesheet" href="expect-0-rules-0-selectors.css" />
-  <link rel="stylesheet" href="expect-1-rules-5-selectors.css" />
-  <link rel="stylesheet" href="expect-5-rules-50-selectors.css" />
-  <link rel="stylesheet" href="expect-50-rules-500-selectors.css" />
-  <link rel="stylesheet" href="expect-100-rules-2500-selectors.css" />
-  <link rel="stylesheet" href="expect-1000-rules-5000-selectors.css" />
+  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-0-rules-0-selectors.css" />
+  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-1-rules-5-selectors.css" />
+  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-5-rules-50-selectors.css" />
+  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-50-rules-500-selectors.css" />
+  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-100-rules-2500-selectors.css" />
+  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-1000-rules-5000-selectors.css" />
   <!--[if IE]>
   <link rel="stylesheet" id="tooManyRulesStylesheet" href="expect-3-rules-4100-selectors-ie-only.css" />
   <link rel="stylesheet" id="tooManySelectorsStylesheet" href="expect-5003-rules-2-selectors-ie-only.css" />
@@ -33,6 +33,16 @@
   <style>
     .class6, .class7, .class8, .class9, .class10 {
       background-color: blue;
+    }
+  </style>
+  <style>
+    @media (max-width: 600px) {
+      body {
+        background-color: #000;
+      }
+      body {
+        color: #fff;
+      }
     }
   </style>
 </head>
@@ -87,34 +97,5 @@
 
   <p id="tooManySelectors">This text only displays in IE and will have an orange background if there are too many selectors</p>
 
-  <!--
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>
-
-    var stylesheets = $('link[rel="stylesheet"]');
-
-    stylesheets.each( function(i) {
-      console.log(i+1 + ' ' + this.href);
-    });
-
-    $('head').contents().filter(
-      // function(){ console.log(return this.nodeType == 8;}
-      function(){
-        console.log( this.nodeType == 8);
-      }
-    ).each(
-      function(i, el) {
-        console.log($(el));
-      }
-    );
-
-    // regexComment = new RegExp(/<!--[if/i);
-    // targetElement = regexComment.exec($('head').html());
-    // if(targetElement.length > 0) {
-    //     return parseInt(targetElement[1]);
-    // }
-
-  </script>
-  -->
 </body>
 </html>
