@@ -14,8 +14,8 @@
     "count"
   ],
   "dependencies": {
-    "async": "0.6.x",
-    "cheerio": "0.14.x",
+    "async": "0.7.x",
+    "cheerio": "0.15.x",
     "cli-table": "0.3.x",
     "css-parse": "1.7.x",
     "optimist": "0.6.x",
