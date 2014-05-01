@@ -2,24 +2,29 @@ body {
   color: #333;
   font-size: 14px;
 }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-size: 18px;
 }
+
 section {
   margin: 10px;
   /* padding: 10px; */
   font-size: 10px;
 }
+
 .foo  .bar > .baz + .qux ~ .quux:before {
   color: #ccc;
   font-size: 12px;
 }
+
 #foo [src] {
   margin: 10px;
   font-size: 16px;
 }
+
 /* Lowest Cohesion Selecotor */
 hr {
   display: block;
@@ -31,13 +36,17 @@ hr {
   border-top: 1px solid red;
   background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==');
 }
-.js-foo { display: block; }
+
+.js-foo {
+  display: block;
+}
+
 @media (max-width: 600px) {
   .media-queries-01 {
     display: none;
   }
   * {
-    display: none;
+    display: block;
   }
   .media-queries-02 {
     display: none;
