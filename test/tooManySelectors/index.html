@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>IE Test - Too Many Selectors</title>
+  <!-- <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/doesNotExis.css" /> -->
   <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-0-rules-0-selectors.css" />
-  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-1-rules-5-selectors.css" />
+  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-2-rules-5-selectors.css" />
   <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-5-rules-50-selectors.css" />
+  <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-8-rules-15-selectors.css" />
   <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-50-rules-500-selectors.css" />
   <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-100-rules-2500-selectors.css" />
   <link rel="stylesheet" href="http://localhost:9876/tooManySelectors/expect-1000-rules-5000-selectors.css" />
@@ -55,11 +57,12 @@
   <ul>
     <li>
 
-      <strong>Two inline &lt;style&gt; blocks:</strong>
+      <strong>Three inline &lt;style&gt; blocks:</strong>
 
       <ol>
         <li>5 rules &amp; 15 selectors</li>
         <li>1 rule &amp; 5 selectors</li>
+        <li>1 rule &amp; 2 selectors</li>
       </ol>
 
       <br>
@@ -67,12 +70,13 @@
     </li>
     <li>
 
-      <strong>Six linked stylesheets:</strong>
+      <strong>Seven linked stylesheets:</strong>
 
       <ol>
         <li>0 rules &amp; 0 selectors</li>
-        <li>1 rule &amp; 5 selectors</li>
+        <li>2 rules &amp; 5 selectors</li>
         <li>5 rules &amp; 50 selectors</li>
+        <li>8 rules &amp; 15 selectors</li>
         <li>50 rules &amp; 500 selectors</li>
         <li>100 rules &amp; 2500 selectors</li>
         <li>1000 rules &amp; 5000 selectors</li>
