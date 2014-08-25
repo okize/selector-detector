@@ -1,4 +1,8 @@
-# selector-detector [![NPM version](https://badge.fury.io/js/selector-detector.png)](http://badge.fury.io/js/selector-detector) [![NPM version](https://david-dm.org/okize/selector-detector.png)](https://david-dm.org/okize/selector-detector)
+[![NPM version](http://img.shields.io/npm/v/selector-detector.svg?style=flat)](https://www.npmjs.org/package/selector-detector)
+[![Dependency Status](http://img.shields.io/david/okize/selector-detector.svg?style=flat)](https://david-dm.org/okize/selector-detector)
+[![Downloads](http://img.shields.io/npm/dm/selector-detector.svg?style=flat)](https://www.npmjs.org/package/selector-detector)
+
+# selector-detector
 
 Counts the CSS rules, selectors and declarations on a web page as well as the total number of inline style blocks and linked stylesheets.
 
@@ -36,5 +40,3 @@ The source is available for download from [GitHub](https://github.com/okize/sele
 ## License
 
 Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
-
-[![NPM](https://nodei.co/npm/selector-detector.png)](https://nodei.co/npm/selector-detector/)
