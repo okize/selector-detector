@@ -14,13 +14,13 @@
     "count"
   ],
   "dependencies": {
-    "async": "0.8.x",
-    "cheerio": "0.15.x",
-    "cli-table": "0.3.x",
-    "css-parse": "1.7.x",
-    "optimist": "0.6.x",
-    "request": "2.34.x",
-    "progger": "0.1.x"
+    "async": "^0.8.0",
+    "cheerio": "^0.15.0",
+    "cli-table": "^0.3.0",
+    "css-parse": "^1.7.0",
+    "optimist": "^0.6.0",
+    "request": "^2.34.0",
+    "progger": "^0.1.0"
   },
   "devDependencies": {
     "http-server": "x"
@@ -41,7 +41,6 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "0.10.x",
-    "npm": "1.4.x"
+    "node": "0.10.x"
   }
 }
