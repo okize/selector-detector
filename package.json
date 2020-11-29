@@ -11,7 +11,7 @@
     "example-server": "node ./node_modules/http-server/bin/http-server ./test -s -p 9876"
   },
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "^1.0.0",
     "cheerio": "^1.0.0-rc.3",
     "cli-table": "^0.3.0",
     "css-parse": "^2.0.0",
