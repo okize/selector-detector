@@ -20,6 +20,7 @@
     "progger": "^1.0.0"
   },
   "devDependencies": {
+    "eslint-config-okize": "^1.7.0",
     "http-server": "x"
   },
   "keywords": [
