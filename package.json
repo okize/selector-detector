@@ -6,6 +6,8 @@
     "selector-detector": "./bin/selector-detector.js"
   },
   "scripts": {
+    "lint": "eslint --cache .",
+    "lint:fix": "npm run lint -- --fix",
     "example1": "./bin/selector-detector.js http://localhost:9876/tooManySelectors/ -p",
     "example2": "./bin/selector-detector.js http://localhost:9876/tooManyStylesheets/ -p",
     "example-server": "node ./node_modules/http-server/bin/http-server ./test -s -p 9876"
