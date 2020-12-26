@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 // modules
-var cli = require('../lib/cli');
-var argv = require('optimist').argv;
+const { argv } = require('optimist');
+const cli = require('../lib/cli');
 
 // init cli
 cli(argv);
