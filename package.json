@@ -14,12 +14,12 @@
   },
   "dependencies": {
     "async": "^3.0.0",
-    "cheerio": "^1.0.0-rc.3",
-    "cli-table": "^0.3.0",
+    "cheerio": "^1.0.0-rc.9",
+    "cli-table": "^0.3.6",
     "css-parse": "^2.0.0",
     "optimist": "^0.6.0",
-    "request": "^2.34.0",
-    "progger": "^1.0.0"
+    "progger": "^1.0.0",
+    "request": "^2.34.0"
   },
   "devDependencies": {
     "eslint-config-okize": "^1.7.0",
