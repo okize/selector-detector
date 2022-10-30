@@ -13,9 +13,9 @@
     "example-server": "node ./node_modules/http-server/bin/http-server ./test -s -p 9876"
   },
   "dependencies": {
-    "async": "^3.0.0",
-    "cheerio": "^1.0.0-rc.9",
-    "cli-table": "^0.3.6",
+    "async": "^3.2.4",
+    "cheerio": "^1.0.0-rc.12",
+    "cli-table": "^0.3.11",
     "css-parse": "^2.0.0",
     "optimist": "^0.6.0",
     "progger": "^1.0.0",
