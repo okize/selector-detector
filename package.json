@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "eslint-config-okize": "^1.7.0",
-    "http-server": "^13.1.0"
+    "http-server": "^14.1.1"
   },
   "keywords": [
     "css",
