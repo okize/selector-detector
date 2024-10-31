@@ -12,15 +12,6 @@
     "example2": "./bin/selector-detector.js http://localhost:9876/tooManyStylesheets/",
     "example-server": "node ./node_modules/http-server/bin/http-server ./test -s -p 9876"
   },
-  "dependencies": {
-    "async": "^3.2.4",
-    "cheerio": "^1.0.0-rc.12",
-    "cli-table": "^0.3.11",
-    "css-parse": "^2.0.0",
-    "optimist": "^0.6.0",
-    "progger": "^1.0.0",
-    "request": "^2.34.0"
-  },
   "devDependencies": {
     "eslint-config-okize": "^1.7.0",
     "http-server": "^14.1.1"
@@ -47,5 +38,14 @@
   "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "async": "^3.2.6",
+    "cheerio": "^1.0.0",
+    "cli-table": "^0.3.11",
+    "css-parse": "^2.0.0",
+    "optimist": "^0.6.1",
+    "progger": "^1.0.1",
+    "request": "^2.88.2"
   }
 }
